@@ -5,8 +5,6 @@ navbar:
   right:
     - text: "Resume"
       href: about.html
-    - text: "Project"
-      href: project.html
     - text: "Dashboard"
       href: plotly.html
     - icon: fa-envelope fa-lg
