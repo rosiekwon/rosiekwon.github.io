@@ -6,9 +6,9 @@ navbar:
     - text: "Resume"
       href: about.html
     - text: "Project"
-      href: plotly.html
+      href: project.html
     - text: "Dashboard"
-      href: dashboard.html
+      href: plotly.html
     - icon: fa-envelope fa-lg
       href: "mailto:rk3445@columbia.edu"
     - icon: fa-github fa-lg

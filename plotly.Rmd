@@ -1,20 +1,19 @@
 ---
-title: "project"
-author: "Rosie Kwon"
-date: "2025-10-21"
-output: html_document
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
-```{r}
+```{r setup, include=FALSE}
+library(flexdashboard)
 library(tidyverse)
 library(p8105.datasets)
 
 library(plotly)
-```
 
-Load the instacart dataset
-
-```{r}
+#Load the instacart dataset
 data("instacart")
 
 dow_labels <- c("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat")
@@ -26,8 +25,10 @@ instacart =
   )
 ```
 
+Column {data-width=650}
+-----------------------------------------------------------------------
 
-1. Barchart : the number of items ordered in each aisle (more than 10000 items ordered)
+### 1. Barchart : the number of items ordered in each aisle (more than 10000 items ordered)
 
 ```{r}
 instacart_bar_data =
@@ -51,7 +52,11 @@ plot_ly(
   )
 ```
 
-2. Box plot : distribution of order time by day of week
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### 2. Box plot : distribution of order time by day of week
 
 ```{r}
 instacart |> 
@@ -67,8 +72,8 @@ instacart |>
   )
 ```
 
+### 3. Scatter + Line Plot : Orders Started per Hour
 
-3. Scatter + Line Plot : Orders Started per Hour
 ```{r}
 instacart_line = 
   instacart |>

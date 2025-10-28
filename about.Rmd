@@ -66,7 +66,7 @@ I’m passionate about using data to explore patterns in human health and behavi
 
 - **Programming:** R, Python, SAS  
 - **Statistical Modeling:** Linear/Logistic Regression, Mixed Models  
-- **Data Visualization:** ggplot2, plotly, flexdashboard  
+
 ---
 
 *Last updated: `r Sys.Date()`*
