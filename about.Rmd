@@ -6,60 +6,63 @@ output:
     toc_float: true
 ---
 
-# 👋 Introduction
-
-![](image/profile.jpg)
-
-Hi, I’m **Rosie Kwon**, a graduate student in **Biostatistics**.  
+👋 Hi, I’m **Rosie Kwon**, a graduate student in **Biostatistics**.  
 I’m passionate about using data to explore patterns in human health and behavior.  
 
-Currently, I’m studying how statistical modeling and visualization can help reveal insights into mental health, lifestyle factors, and population-level health trends.  
 
 ---
 
-# 🎓 Research Interests
+##  Research Interests
 
 - Data-driven approaches to understanding human behavior and health  
 - Mental health data analysis and visualization  
 - Statistical modeling and causal inference  
-- Reproducible research and open science  
 
 ---
 
-# 🏫 Education
+## 🏫 Education {.tabset}
 
-::: {.timeline}
-- **M.S. in Biostatistics**, *Columbia University*  
-  _Expected 2027_  
-  - Focus: Statistical Modeling, Epidemiology, Data Visualization  
-  - Courses: Biostatistical Methods, Machine Learning  
+### M.S. in Biostatistics
+**Institution:** Columbia University  
+**Duration:** 2025 – Expected 2027  
+**Focus:** Statistical Modeling, Epidemiology, and Data Visualization  
+**Relevant Courses:** Biostatistical Methods, Machine Learning, Public Health Data Science
 
-- **B.S. in Biomedical Engineering**, *University of Michigan*  
-  _Class of 2022_  
-  - Focus: Computational Modeling, Medical Imaging
-  - Honors: Summacum Laude, Dean’s List
-:::
+---
+
+### B.S. in Biomedical Engineering
+**Institution:** University of Michigan  
+**Graduated:** 2022  
+**Focus:** Medical Data Analysis, Computational Modeling, and Healthcare Technology  
+**Honors / Activities:** Dean’s List, Research Assistant in Neuroengineering Lab
+
+
 ---
 
 
-# 🧪 Research Experience
+## 🧪 Research Experience
 
-### Researcher — Center for Digital Health, Kyunghee University Medical Center
+### Center for Digital Health, Kyunghee University Medical Center  
+**Researcher** | Seoul, Korea / Remote | 2022 – Present  
 - Conducted a 15-year trend analysis of physical activity in South Korea using KYRBS data (2009–2021).  
 - Applied SAS, SPSS, and R for statistical modeling and data visualization.  
-- Co-authored a publication in *Journal of Medical Virology* on national physical activity trends.
+- First-authored a publication in [*Journal of Medical Virology* on national physical activity trends](https://pubmed.ncbi.nlm.nih.gov/36602052/).
 
-### Undergraduate Research Assistant — Integrated Brain Imaging Lab, University of Michigan
+
+### Integrated Brain Imaging Lab, University of Michigan  
+**Undergraduate Research Assistant** | Ann Arbor, MI | 2021 – 2022  
 - Investigated brain–gut interactions using physiological recordings and fMRI data.  
-- Analyzed gastric myoelectric and neural coupling using Python and MATLAB.
+- Analyzed neural and gastric coupling using Python and MATLAB.
 
-### Researcher — Department of Nuclear Medicine, Keimyung University Dongsan Hospital
-- Predicted lymph node metastasis in breast cancer using PET/CT images and deep learning.  
-- Extracted imaging features with 3D Slicer and Pyradiomics to support radiomics-based diagnosis.
+### Department of Nuclear Medicine, Keimyung University Dongsan Hospital  
+**Researcher** | Daegu, Korea | 2021  
+- Predicted lymph node metastasis in breast cancer using PET/CT and deep learning.  
+- Extracted imaging features with 3D Slicer and Pyradiomics.
+- First-authored a publication in [*Diagnostic* on prediction of Prognosis in Patients with Intrahepatic Cholangiocarcinoma](https://pmc.ncbi.nlm.nih.gov/articles/PMC11475304/).
 
 ---
 
-# 🧠 Skills
+## 🧠 Skills
 
 - **Programming:** R, Python, SAS  
 - **Statistical Modeling:** Linear/Logistic Regression, Mixed Models  
@@ -68,7 +71,7 @@ Currently, I’m studying how statistical modeling and visualization can help re
 
 ---
 
-# 🌐 Links
+## 🌐 Links
 
 - [GitHub](https://github.com/rosiekwon)  
 - [LinkedIn](https://www.linkedin.com/in/rosiekwon)  
