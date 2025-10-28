@@ -1,0 +1,28 @@
+---
+title: "Rosie's website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+
+### Hi, I'm Rosie Kwon. 
+
+<!-- Profile / intro section --> <div align="left"> <img src="image/profile.jpg" alt="Rosie Kwon" width="160"> </div>
+
+I study Biostatistics with theory and method track in Columbia University. 
+I’m especially interested in cancer, mental health, and global health.
+
+
+---
+
+### Want to know more?
+
+- See what I’ve been working on: [Project →](project.html)  
+- View my academic / research background: [Resume →](about.html)  
+- Contact me directly: [rosiekwon514@gmail.com](mailto:rosiekwon514@gmail.com)
+
+---
+
+<sub>© 2025 Rosie Kwon · Last updated: `r Sys.Date()`</sub>
