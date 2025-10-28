@@ -1,0 +1,79 @@
+---
+title: "About me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# 👋 Introduction
+
+![](image/profile.jpg)
+
+Hi, I’m **Rosie Kwon**, a graduate student in **Biostatistics**.  
+I’m passionate about using data to explore patterns in human health and behavior.  
+
+Currently, I’m studying how statistical modeling and visualization can help reveal insights into mental health, lifestyle factors, and population-level health trends.  
+
+---
+
+# 🎓 Research Interests
+
+- Data-driven approaches to understanding human behavior and health  
+- Mental health data analysis and visualization  
+- Statistical modeling and causal inference  
+- Reproducible research and open science  
+
+---
+
+# 🏫 Education
+
+::: {.timeline}
+- **M.S. in Biostatistics**, *Columbia University*  
+  _Expected 2027_  
+  - Focus: Statistical Modeling, Epidemiology, Data Visualization  
+  - Courses: Biostatistical Methods, Machine Learning  
+
+- **B.S. in Biomedical Engineering**, *University of Michigan*  
+  _Class of 2022_  
+  - Focus: Computational Modeling, Medical Imaging
+  - Honors: Summacum Laude, Dean’s List
+:::
+---
+
+
+# 🧪 Research Experience
+
+### Researcher — Center for Digital Health, Kyunghee University Medical Center
+- Conducted a 15-year trend analysis of physical activity in South Korea using KYRBS data (2009–2021).  
+- Applied SAS, SPSS, and R for statistical modeling and data visualization.  
+- Co-authored a publication in *Journal of Medical Virology* on national physical activity trends.
+
+### Undergraduate Research Assistant — Integrated Brain Imaging Lab, University of Michigan
+- Investigated brain–gut interactions using physiological recordings and fMRI data.  
+- Analyzed gastric myoelectric and neural coupling using Python and MATLAB.
+
+### Researcher — Department of Nuclear Medicine, Keimyung University Dongsan Hospital
+- Predicted lymph node metastasis in breast cancer using PET/CT images and deep learning.  
+- Extracted imaging features with 3D Slicer and Pyradiomics to support radiomics-based diagnosis.
+
+---
+
+# 🧠 Skills
+
+- **Programming:** R, Python, SAS  
+- **Statistical Modeling:** Linear/Logistic Regression, Mixed Models  
+- **Data Visualization:** ggplot2, plotly, flexdashboard  
+- **Tools:** Git, GitHub, R Markdown, Quarto  
+
+---
+
+# 🌐 Links
+
+- [GitHub](https://github.com/rosiekwon)  
+- [LinkedIn](https://www.linkedin.com/in/rosiekwon)  
+- 📧 [rosiekwon514@gmail.com](mailto:rosiekwon514@gmail.com)
+
+---
+
+*Last updated: `r Sys.Date()`*
