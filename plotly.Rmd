@@ -1,0 +1,53 @@
+---
+title: "project"
+author: "Rosie Kwon"
+date: "2025-10-21"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+```
+
+Load the instacart dataset
+
+```{r}
+data("instacart")
+
+dow_labels <- c("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat")
+
+instacart = 
+  instacart |> 
+  mutate(
+    order_dow = factor(order_dow, levels = 0:6, labels = dow_labels)
+  )
+```
+
+
+1. Barchart : the number of items ordered in each aisle (more than 10000 items ordered)
+
+```{r}
+instacart_bar_data =
+  instacart |> 
+  group_by(aisle) |> 
+  summarise(count = n()) |> 
+  filter(count > 10000) |> 
+  arrange(desc(count))
+
+plot_ly(
+  data = instacart_bar_data,
+  x = ~count,
+  y = ~reorder(aisle, count),
+  type = "bar",
+  orientation = "h"
+) |> 
+  layout(
+    title = "Number of Items Ordered by Aisle (>10,000)",
+    xaxis = list(title = "Number of Items Ordered"),
+    yaxis = list(title = "Aisle")
+  )
+```
+

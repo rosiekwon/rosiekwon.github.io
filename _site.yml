@@ -1,11 +1,11 @@
-name: "P8105 Website"
+name: "Rosie's Website"
 output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
+    - text: "Resume"
       href: about.html
-    - text: "Plotly"
+    - text: "Project"
       href: plotly.html
     - text: "Dashboard"
       href: dashboard.html
@@ -13,6 +13,8 @@ navbar:
       href: "mailto:rk3445@columbia.edu"
     - icon: fa-github fa-lg
       href: "https://github.com/rosiekwon/"
+    - icon: fa-linkedin fa-lg
+      href: "https://www.linkedin.com/in/rosiekwon"
 output:
   html_document:
-    theme: flatly
+    theme: readable
