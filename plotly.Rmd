@@ -51,3 +51,47 @@ plot_ly(
   )
 ```
 
+2. Box plot : distribution of order time by day of week
+
+```{r}
+instacart |> 
+  select(order_dow, order_hour_of_day) |> 
+  plot_ly(
+    x = ~order_dow, y =~order_hour_of_day, color = ~order_dow,
+    type = "box", colors = "viridis"
+  ) |> 
+  layout(
+    title = "Distribution of order time by day of week",
+    xaxis = list(title = "Day of Week"),
+    yaxis = list(title = "Hour of Day (0–23H)")
+  )
+```
+
+
+3. Scatter + Line Plot : Orders Started per Hour
+```{r}
+instacart_line = 
+  instacart |>
+  filter(add_to_cart_order == 1) |> 
+  group_by(order_hour_of_day) |>
+  summarise(
+    n_orders_started = n(),
+    .groups = "drop"
+  ) |>
+  arrange(order_hour_of_day)
+
+plot_ly(
+  data = instacart_line,
+  x = ~order_hour_of_day,
+  y = ~n_orders_started,
+  type = "scatter",
+  mode = "markers+lines",
+  marker = list(size = 8, opacity = 0.7)
+) |>
+  layout(
+    title = "Orders Started per Hour",
+    xaxis = list(title = "Hour of Day (0–23)"),
+    yaxis = list(title = "Number of orders")
+  )
+```
+
